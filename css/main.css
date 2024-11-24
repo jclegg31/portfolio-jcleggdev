@@ -96,7 +96,7 @@ textarea {
   padding: 10px;
   font-size: 13px;
   width: 100%;
-  color: #181715;
+  color: var(--clr-black);
   background: transparent;
   border: 2px solid #191a1e80;
   border-radius: 3px;
@@ -111,7 +111,7 @@ textarea {
 }
 
 .linkbtn {
-  background: #181715;
+  background: var(--clr-black);
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 50px;
@@ -135,7 +135,7 @@ textarea {
   border: none;
   width: 20px;
   height: 2px;
-  background: #ddaa01;
+  background: var(--clr-darkyellow);
   border-radius: 3px;
   margin: 10px 5px;
   padding: 3px;
@@ -147,7 +147,7 @@ textarea {
 }
 
 .dot--active {
-  background: #181715;
+  background: var(--clr-black);
 }
 /*
 * ----------------------------------------------------------------------------------------
@@ -210,7 +210,7 @@ textarea {
   font-size: 15px;
   font-weight: 500;
   position: relative;
-  color: #181715;
+  color: var(--clr-black);
   z-index: 1;
   padding: 5px 15px;
   border-radius: 50px;
@@ -219,12 +219,12 @@ textarea {
 .navpage__wrap li a:hover {
   text-decoration: none;
   color: #ffffff;
-  background: #181715;
+  background: var(--clr-black);
 }
 
 .navpage__wrap li a.activelink {
   color: #ffffff;
-  background: #181715;
+  background: var(--clr-black);
 }
 
 .navicon {
@@ -255,12 +255,12 @@ textarea {
   position: absolute;
   width: 25px;
   height: 2px;
-  background: #181715;
+  background: var(--clr-black);
 }
 
 .navicon:hover .navicon__bar:before,
 .navicon:hover .navicon__bar:after {
-  background: #181715;
+  background: var(--clr-black);
 }
 
 .navicon__bar:before {
@@ -296,7 +296,7 @@ textarea {
   display: none;
   background: var(--clr-lightyellow);
   padding: 80px 0 30px 0;
-  border-bottom: 1px solid #ddaa01;
+  border-bottom: 1px solid var(--clr-darkyellow);
 }
 
 .overlay__listnav {
@@ -312,7 +312,7 @@ textarea {
   font-size: 18px;
   font-weight: 500;
   position: relative;
-  color: #181715;
+  color: var(--clr-black);
   padding: 5px 10px;
   border-radius: 50px;
 }
@@ -320,7 +320,7 @@ textarea {
 .overlay__listnav li a:hover {
   color: #ffffff;
   text-decoration: none;
-  background: #181715;
+  background: var(--clr-black);
 }
 
 .openmenu .overlay {
@@ -343,14 +343,14 @@ textarea {
   padding: 5px 20px;
   color: #ffffff;
   display: inline-block;
-  background: #181715;
+  background: var(--clr-black);
   border-radius: 5px;
 }
 
 .infohero__title {
   font-size: 80px;
   font-weight: 600;
-  text-shadow: 5px 5px #ddaa01;
+  text-shadow: 5px 5px var(--clr-darkyellow);
 }
 
 .infohero__title span {
@@ -368,7 +368,7 @@ textarea {
   height: 350px;
   width: 350px;
   object-fit: cover;
-  box-shadow: 20px 20px 1px 1px #ddaa01;
+  box-shadow: 20px 20px 1px 1px var(--clr-darkyellow);
   border: 7px solid;
 }
 
@@ -432,7 +432,7 @@ textarea {
 }
 
 .infoabout__wrap .infoabout__title {
-  color: #181715;
+  color: var(--clr-black);
   letter-spacing: 1px;
   font-weight: 700;
 }
@@ -525,7 +525,7 @@ textarea {
 
 .wrapservice i {
   font-size: 30px;
-  background: #ddaa01;
+  background: var(--clr-darkyellow);
   padding: 20px 20px;
   border-radius: 100%;
 }
@@ -581,14 +581,14 @@ textarea {
 }
 
 .porfoliowarp__item:hover .porfoliowarp__content {
-  background-color: #ddaa01;
+  background-color: var(--clr-darkyellow);
   opacity: 0.5;
 }
 
 .porfoliowarp__portolink i {
   position: absolute;
   z-index: 1;
-  color: #181715;
+  color: var(--clr-black);
   opacity: 0;
   font-size: 50px;
   position: absolute;
@@ -614,11 +614,11 @@ textarea {
   margin: 0 5px;
   padding: 5px 20px;
   cursor: pointer;
-  border: 1px solid #181715;
+  border: 1px solid var(--clr-black);
 }
 
 #filterwrap li.active {
-  background: #181715;
+  background: var(--clr-black);
   color: #ffffff;
 }
 /*
@@ -667,7 +667,7 @@ textarea {
 }
 
 .contactdetail__sosmed li a {
-  color: #181715;
+  color: var(--clr-black);
   font-size: 30px;
 }
 /*
