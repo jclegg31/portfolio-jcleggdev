@@ -573,6 +573,7 @@ textarea {
   border-radius: 5px;
   height: 350px;
   width: 100%;
+  border: 0.0025rem solid darkgrey;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
