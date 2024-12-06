@@ -388,37 +388,60 @@ textarea {
 }
 /*
 * ----------------------------------------------------------------------------------------
-* 04.ABOUT SECTION. 
+* 04.SKILLS SECTION. 
 * ----------------------------------------------------------------------------------------
 */
 
+/* skills not about */
 #aboutsection {
   height: auto;
-  background: #ffffff;
-  padding: 100px 0 0;
+  background: #fff;
+  padding: 50px 0;
 }
 
+/* starts about section */
 .about-container {
-  display: flex;
-  justify-content: space-around;
   max-width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid blue; */
 }
 
 .photos {
-  max-width: 75%;
+  max-width: 50%;
+  padding: 0 10px;
+  /* border: 5px solid white; */
+}
+
+.about-text {
+  max-width: 50%;
+  padding: 50px 20px;
+  font-size: 16px;
+  line-height: 2.3;
+  /* border: 5px solid green; */
+}
+
+.about h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.about-container .photos img {
+  width: 100%; /* Make the image take full width */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
 }
 
 .about {
-  padding: 80px 75px;
+  padding: 20px 75px 40px 75px;
 }
 
 .about p {
   line-height: 2.3;
 }
 
-.abouthero h3,
-.about h3 {
+.abouthero h3 {
   font-size: 50px;
   font-weight: 600;
 }
@@ -430,20 +453,23 @@ textarea {
 .infoabout__list li {
   list-style: none;
 }
-
-.infoabout__wrap .infoabout__title {
+/* .infoabout__wrap {
+  border: 5px solid purple;
+} */
+.infoabout__title {
   color: var(--clr-black);
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .tech-logo {
-  width: 25%;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .tech-grid-container {
   display: grid;
-
+  place-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'html css javascript wordpress'
@@ -498,9 +524,19 @@ textarea {
 .tech-grid-container .lightroom {
   grid-area: lightroom;
 }
+
+.tech-grid-item {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-grid-item img {
+  width: 35%;
+}
 /*
 * ----------------------------------------------------------------------------------------
-* 05.SERVICE SECTION. 
+* 05. ABOUT SECTION. 
 * ----------------------------------------------------------------------------------------
 */
 
@@ -508,6 +544,7 @@ textarea {
   background: var(--clr-lightyellow);
   height: auto;
   padding: 0 0 0;
+  /* border: 5px solid red; */
 }
 
 .counterwrap {
@@ -631,7 +668,7 @@ textarea {
 #contactsection {
   height: auto;
   background: var(--clr-lightyellow);
-  padding: 0 0 50px;
+  /* padding: 0 0 50px; */
 }
 
 .contactdetail__title {

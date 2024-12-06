@@ -67,8 +67,55 @@ Filename      : responsive.css
   #typed-text {
     font-size: 15px;
   }
+  /* skills section */
+  .tech-grid-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'html css'
+      'javascript wordpress'
+      'mailchimp litmus'
+      'figma canva'
+      'photoshop illustrator'
+      'indesign lightroom';
+  }
+  .tech-logo {
+    width: 20%;
+    margin: 0 auto;
+  }
+
   .porfoliowarp__item {
     width: 50%;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .photos {
+    max-width: 75%;
+    padding: 0 10px;
+  }
+
+  .about-text {
+    max-width: 75%;
+    padding: 20px 0;
+    font-size: 16px;
+    line-height: 2.3;
+  }
+  .about-container .photos,
+  .about-container .about {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .about-container .about {
+    font-size: 16px;
+    line-height: 1.6;
   }
 }
 
@@ -78,6 +125,46 @@ Filename      : responsive.css
 @media (max-width: 799px) {
   .porfoliowarp__item {
     width: 100%;
+  }
+
+  .about-container .about {
+    font-size: 14px;
+  }
+
+  .tech-grid-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'html'
+      'css'
+      'javascript'
+      'wordpress'
+      'mailchimp'
+      'litmus'
+      'figma'
+      'canva'
+      'photoshop'
+      'illustrator'
+      'indesign'
+      'lightroom';
+  }
+
+  .tech-logo {
+    margin: 10px auto;
+  }
+
+  .photos {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .about-text,
+  .projects-text {
+    max-width: 100%;
+    padding: 50px 20px;
+    font-size: 16px;
+    line-height: 2.3;
   }
 }
 
