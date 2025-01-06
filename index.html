@@ -1,284 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- title -->
     <title>Julie Clegg - Web & Email Developer</title>
     <!-- favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./asset/page/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./asset/page/favicon-16x16.png">
-    <link rel="shortcut icon" href="./asset/page/favicon.ico">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./asset/page/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./asset/page/favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="./asset/page/favicon.ico" />
     <!-- metatag -->
     <meta name="author" content="Julie Clegg" />
-    <meta property="og:title" content="Julie Clegg - Web & Email Developer Portfolio" />
+    <meta
+      property="og:title"
+      content="Julie Clegg - Web & Email Developer Portfolio"
+    />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
-    <meta property="og:description" content="Julie Clegg - Web & Email Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Julie Clegg - Web & Email Developer Portfolio"
+    />
     <meta property="og:site_name" content="Julie Clegg Portfolio" />
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Julie Clegg - Web & Email Developer Portfolio">
-    <meta name="twitter:description" content="Julie Clegg - Web & Email Developer Portfolio">
-    <meta name="twitter:image" content="">
-    <meta id="tw_url" name="twitter:url" content="">
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Julie Clegg - Web & Email Developer Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Julie Clegg - Web & Email Developer Portfolio"
+    />
+    <meta name="twitter:image" content="" />
+    <meta id="tw_url" name="twitter:url" content="" />
     <!-- main style -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet" />
 
     <!-- Hotjar -->
     <script>
-        (function (c, s, q, u, a, r, e) {
-            c.hj = c.hj || function () { (c.hj.q = c.hj.q || []).push(arguments) }
-            c._hjSettings = { hjid: a }
-            r = s.getElementsByTagName('head')[0]
-            e = s.createElement('script')
-            e.async = true
-            e.src = q + c._hjSettings.hjid + u
-            r.appendChild(e)
-        })(window, document, 'https://static.hj.contentsquare.net/c/csq-', '.js', 5233538);
+      (function (c, s, q, u, a, r, e) {
+        c.hj =
+          c.hj ||
+          function () {
+            (c.hj.q = c.hj.q || []).push(arguments);
+          };
+        c._hjSettings = { hjid: a };
+        r = s.getElementsByTagName("head")[0];
+        e = s.createElement("script");
+        e.async = true;
+        e.src = q + c._hjSettings.hjid + u;
+        r.appendChild(e);
+      })(
+        window,
+        document,
+        "https://static.hj.contentsquare.net/c/csq-",
+        ".js",
+        5233538
+      );
     </script>
 
     <!-- Drift - messenging -->
     <!-- Start of Async Drift Code -->
     <script>
-        "use strict"
+      "use strict";
 
-        !function () {
-            var t = window.driftt = window.drift = window.driftt || []
-            if (!t.init) {
-                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."))
-                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                    t.factory = function (e) {
-                        return function () {
-                            var n = Array.prototype.slice.call(arguments)
-                            return n.unshift(e), t.push(n), t
-                        }
-                    }, t.methods.forEach(function (e) {
-                        t[e] = t.factory(e)
-                    }), t.load = function (t) {
-                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script")
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js"
-                        var i = document.getElementsByTagName("script")[0]
-                        i.parentNode.insertBefore(o, i)
-                    }
-            }
-        }()
-        drift.SNIPPET_VERSION = '0.3.1'
-        drift.load('z727uzc5b5mk');
+      !(function () {
+        var t = (window.driftt = window.drift = window.driftt || []);
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              "identify",
+              "config",
+              "track",
+              "reset",
+              "debug",
+              "show",
+              "ping",
+              "page",
+              "hide",
+              "off",
+              "on",
+            ]),
+            (t.factory = function (e) {
+              return function () {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function (e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function (t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement("script");
+              (o.type = "text/javascript"),
+                (o.async = !0),
+                (o.crossorigin = "anonymous"),
+                (o.src =
+                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            });
+        }
+      })();
+      drift.SNIPPET_VERSION = "0.3.1";
+      drift.load("z727uzc5b5mk");
     </script>
     <!-- End of Async Drift Code -->
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBKNPXFEND"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VBKNPXFEND"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || []
-        function gtag() { dataLayer.push(arguments) }
-        gtag('js', new Date())
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-VBKNPXFEND');
+      gtag("config", "G-VBKNPXFEND");
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- header -->
     <header id="headermain">
-        <div class="container">
-            <div class="row headerwrap">
-                <div class="col-xs-12 col-md-12 col-lg-2">
-                    <!-- wrap logo -->
-                    <div class="headerwrap__logo">
-                        <img src="./asset/page/logo.png" alt="logo" class="img-fluid" />
-                    </div>
-                    <!-- end wrap logo -->
-                    <!-- navigation icon  -->
-                    <div class="navicon d-block d-lg-none">
-                        <div class="navicon__bar"></div>
-                    </div>
-                    <!-- end navigation icon  -->
-                </div>
-                <div class="col-lg-10 text-xl-left d-none d-lg-block justify-content-lg-left justify-content-xl-left">
-                    <!-- navigation desktop -->
-                    <nav class="navpage text-left">
-                        <ul class="navpage__wrap">
-                            <li class="navpage__list"><a href="#sectionhero" class="activelink">Home</a></li>
-                            <li class="navpage__list"><a href="#aboutsection">Skills</a></li>
-                            <li class="navpage__list"><a href="#servicesection">About</a></li>
-                            <li class="navpage__list"><a href="#portfoliosection">Portfolio</a></li>
-                            <li class="navpage__list"><a href="#contactsection">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <!-- end navigation desktop -->
-                </div>
+      <div class="container">
+        <div class="row headerwrap">
+          <div class="col-xs-12 col-md-12 col-lg-2">
+            <!-- wrap logo -->
+            <div class="headerwrap__logo">
+              <img src="./asset/page/logo.png" alt="logo" class="img-fluid" />
             </div>
+            <!-- end wrap logo -->
+            <!-- navigation icon  -->
+            <div class="navicon d-block d-lg-none">
+              <div class="navicon__bar"></div>
+            </div>
+            <!-- end navigation icon  -->
+          </div>
+          <div
+            class="col-lg-10 text-xl-left d-none d-lg-block justify-content-lg-left justify-content-xl-left"
+          >
+            <!-- navigation desktop -->
+            <nav class="navpage text-left">
+              <ul class="navpage__wrap">
+                <li class="navpage__list">
+                  <a href="#sectionhero" class="activelink">Home</a>
+                </li>
+                <li class="navpage__list">
+                  <a href="#aboutsection">Skills</a>
+                </li>
+                <li class="navpage__list">
+                  <a href="#servicesection">About</a>
+                </li>
+                <li class="navpage__list">
+                  <a href="#portfoliosection">Portfolio</a>
+                </li>
+                <li class="navpage__list">
+                  <a href="#contactsection">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- end navigation desktop -->
+          </div>
         </div>
+      </div>
     </header>
     <!-- end header -->
     <!-- mobile nav -->
     <div class="overlay">
-        <div class="overlay__navigation">
-            <ul class="overlay__listnav">
-                <li class="navpage__list"><a href="#herosection">Home</a></li>
-                <li><a href="#aboutsection">Skills</a></li>
-                <li><a href="#servicesection">About</a></li>
-                <li><a href="#portfoliosection">Portfolio</a></li>
-                <li><a href="#contactsection">Contact</a></li>
-            </ul>
-        </div>
+      <div class="overlay__navigation">
+        <ul class="overlay__listnav">
+          <li class="navpage__list"><a href="#herosection">Home</a></li>
+          <li><a href="#aboutsection">Skills</a></li>
+          <li><a href="#servicesection">About</a></li>
+          <li><a href="#portfoliosection">Portfolio</a></li>
+          <li><a href="#contactsection">Contact</a></li>
+        </ul>
+      </div>
     </div>
     <!-- end mobile nav -->
 
     <!-- main wrap -->
     <main id="mainwrap">
-        <!-- section hero -->
-        <div id="sectionhero" class="sectionblock">
-            <div class="container">
-                <div class="row">
-                    <div
-                        class="col-lg-6 pr-0 mr-0 pl-lg-0 pr-lg-5 mr-lg-0 mt-3 mt-lg-0 align-items-center justify-content-center align-items-lg-left justify-content-lg-left text-center text-lg-left d-flex order-1 order-lg-0 ">
-                        <div class="infohero ">
-                            <p class="infohero__p">Hello, i'm</p>
-                            <h1 class="infohero__title">Julie Clegg
-                                <!-- <span>Clegg</span> -->
-                            </h1>
-                            <span id="typed-text"></span>
-                            <span class="cursor blink">&nbsp;</span>
-                            <p class="tag-line">I craft dynamic, responsive web solutions and visually engaging emails
-                                that captivate
-                                audiences and enhance user
-                                experience.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-center order-0 order-lg-1 mb-5 mb-lg-0">
-                        <div class="heroimg">
-                            <img src="./asset/hero/1.jpg" alt="poto" class="img-fluid heroimg__poto" />
-                        </div>
-                    </div>
-                </div>
+      <!-- section hero -->
+      <div id="sectionhero" class="sectionblock">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 pr-0 mr-0 pl-lg-0 pr-lg-5 mr-lg-0 mt-3 mt-lg-0 align-items-center justify-content-center align-items-lg-left justify-content-lg-left text-center text-lg-left d-flex order-1 order-lg-0"
+            >
+              <div class="infohero">
+                <p class="infohero__p">Hello, i'm</p>
+                <h1 class="infohero__title">
+                  Julie Clegg
+                  <!-- <span>Clegg</span> -->
+                </h1>
+                <span id="typed-text"></span>
+                <span class="cursor blink">&nbsp;</span>
+                <p class="tag-line">
+                  I craft dynamic, responsive web solutions and visually
+                  engaging emails that captivate audiences and enhance user
+                  experience.
+                </p>
+              </div>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 225">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,128L60,149.3C120,171,240,213,360,192C480,171,600,85,720,85.3C840,85,960,171,1080,197.3C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-                </path>
-            </svg>
+            <div class="col-lg-6 text-center order-0 order-lg-1 mb-5 mb-lg-0">
+              <div class="heroimg">
+                <img
+                  src="./asset/hero/1.jpg"
+                  alt="poto"
+                  class="img-fluid heroimg__poto"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- end section hero -->
-        <!-- skills/about section -->
-        <div id="aboutsection" class="sectionblock">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center ">
-                        <div class="abouthero">
-                            <h3>Skills</h3>
-                        </div>
-                    </div>
-                    <div class="infoabout__wrap">
-                        <div class="tech-grid-container">
-                            <div class="tech-grid-item html">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">HTML</span>
-                                <img src="./asset/tech/HTML5.png" alt="logo of html5" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item css">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">CSS</span>
-                                <img src="./asset/tech/CSS3.png" alt="logo of css3" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item javascript">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">JavaScript</span>
-                                <img src="./asset/tech/JavaScript.png" alt="logo of JavaScript" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item wordpress">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">WordPress</span>
-                                <img src="./asset/tech/WordPress.png" alt="logo of WordPress" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item mailchimp">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">MailChimp</span>
-                                <img src="./asset/tech/mailchimp.png" alt="logo of MailChimp" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item litmus">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">Litmus</span>
-                                <img src="./asset/tech/Litmus.png" alt="logo of Litmus" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item figma">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">Figma</span>
-                                <img src="./asset/tech/Figma.png" alt="logo of Figma" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item canva">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">Canva</span>
-                                <img src="./asset/tech//Canva.png" alt="logo of Canva" class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item photoshop">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">Photoshop</span>
-                                <img src="./asset/tech/Adobe Photoshop.png" alt="logo of Adobe Photoshop"
-                                    class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item illustrator">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">Illustrator</span>
-                                <img src="./asset/tech/Adobe Illustrator.png" alt="logo of Adobe Illustrator"
-                                    class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item indesign">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">InDesign</span>
-                                <img src="./asset/tech/Adobe InDesign.png" alt="logo of Adobe InDesign"
-                                    class="tech-logo">
-                            </div>
-                            <div class="tech-grid-item lightroom">
-                                <span class="mt-4 mb-2 d-block text-center infoabout__title">Lightroom</span>
-                                <img src="./asset/tech/Adobe Lightroom.png" alt="logo of Adobe Lightroom"
-                                    class="tech-logo">
-                            </div>
-                        </div>
-                    </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 225">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,128L60,149.3C120,171,240,213,360,192C480,171,600,85,720,85.3C840,85,960,171,1080,197.3C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <!-- end section hero -->
+      <!-- skills/about section -->
+      <div id="aboutsection" class="sectionblock">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="abouthero">
+                <h3>Skills</h3>
+              </div>
+            </div>
+            <div class="infoabout__wrap">
+              <div class="tech-grid-container">
+                <div class="tech-grid-item html">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >HTML</span
+                  >
+                  <img
+                    src="./asset/tech/HTML5.png"
+                    alt="logo of html5"
+                    class="tech-logo"
+                  />
                 </div>
+                <div class="tech-grid-item css">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >CSS</span
+                  >
+                  <img
+                    src="./asset/tech/CSS3.png"
+                    alt="logo of css3"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item javascript">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >JavaScript</span
+                  >
+                  <img
+                    src="./asset/tech/JavaScript.png"
+                    alt="logo of JavaScript"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item wordpress">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >WordPress</span
+                  >
+                  <img
+                    src="./asset/tech/WordPress.png"
+                    alt="logo of WordPress"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item mailchimp">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >MailChimp</span
+                  >
+                  <img
+                    src="./asset/tech/mailchimp.png"
+                    alt="logo of MailChimp"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item litmus">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >Litmus</span
+                  >
+                  <img
+                    src="./asset/tech/Litmus.png"
+                    alt="logo of Litmus"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item figma">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >Figma</span
+                  >
+                  <img
+                    src="./asset/tech/Figma.png"
+                    alt="logo of Figma"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item canva">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >Canva</span
+                  >
+                  <img
+                    src="./asset/tech//Canva.png"
+                    alt="logo of Canva"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item photoshop">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >Photoshop</span
+                  >
+                  <img
+                    src="./asset/tech/Adobe Photoshop.png"
+                    alt="logo of Adobe Photoshop"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item illustrator">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >Illustrator</span
+                  >
+                  <img
+                    src="./asset/tech/Adobe Illustrator.png"
+                    alt="logo of Adobe Illustrator"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item indesign">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >InDesign</span
+                  >
+                  <img
+                    src="./asset/tech/Adobe InDesign.png"
+                    alt="logo of Adobe InDesign"
+                    class="tech-logo"
+                  />
+                </div>
+                <div class="tech-grid-item lightroom">
+                  <span class="mt-4 mb-2 d-block text-center infoabout__title"
+                    >Lightroom</span
+                  >
+                  <img
+                    src="./asset/tech/Adobe Lightroom.png"
+                    alt="logo of Adobe Lightroom"
+                    class="tech-logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end skills/about -->
+
+      <!-- about/service section -->
+      <div id="servicesection" class="sectionblock">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 225">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,96L60,117.3C120,139,240,181,360,186.7C480,192,600,160,720,138.7C840,117,960,107,1080,117.3C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+
+        <!-- About Section Heading -->
+        <div class="about text-center">
+          <h3>About</h3>
+        </div>
+        <!-- this line brought back functionality for portfolio (look at classes for formattaing issues)-->
+        <div id="sliderservice" class="sliderservice__contentinner keen-slider">
+          <div class="about-container">
+            <div class="photos">
+              <img
+                src="./asset/portfolio/about-collage.png"
+                alt="three photo collage of family, dog, fishing friend"
+              />
             </div>
 
-        </div> <!-- end skills/about -->
-
-
-        <!-- about/service section -->
-        <div id="servicesection" class="sectionblock">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 225">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,96L60,117.3C120,139,240,181,360,186.7C480,192,600,160,720,138.7C840,117,960,107,1080,117.3C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
-                </path>
-            </svg>
-
-
-            <!-- About Section Heading -->
-            <div class="about text-center">
-                <h3>About</h3>
-            </div>
-            <!-- this line brought back functionality for portfolio (look at classes for formattaing issues)-->
-            <div id="sliderservice" class="sliderservice__contentinner keen-slider">
-                <div class="about-container">
-
-                    <div class="photos">
-                        <img src="./asset/portfolio/about-collage.png"
-                            alt="three photo collage of family, dog, fishing friend">
-                    </div>
-
-                    <div class="about-text">
-                        <h3>I’m a front-end developer based out of Colorado!</h3>
-                        <p>I've always been passionate about creating and understanding how things work. As I grew
-                            older, I found my true passion
-                            in bringing ideas to life through coding. My experience in project management, QA
-                            engineering, photography, and real
-                            estate has given me a unique blend of skills that complement my expertise in web
-                            development. As a front-end developer,
-                            I love turning designers' ideas into visually stunning and functional websites that help
-                            businesses achieve their goals.
-                            I'm always eager to take on new challenges and expand my skillset to stay on top of the
-                            latest trends in web
-                            development.</p>
-                        <p>
-                            When I'm not coding, I love spending time with my family, cheering on my sons at their
-                            travel baseball games, and
-                            exploring Colorado's great outdoors with our chocolate lab. I'm also always on the hunt for
-                            the best tacos in town.
-                            Balancing work and life is important to me, and I strive to bring that balance to every
-                            project I work on.</p>
-                        <!-- <p>
+            <div class="about-text">
+              <h3>I’m a front-end developer based out of Colorado!</h3>
+              <p>
+                I've always been passionate about creating and understanding how
+                things work. As I grew older, I found my true passion in
+                bringing ideas to life through coding. My experience in project
+                management, QA engineering, photography, and real estate has
+                given me a unique blend of skills that complement my expertise
+                in web development. As a front-end developer, I love turning
+                designers' ideas into visually stunning and functional websites
+                that help businesses achieve their goals. I'm always eager to
+                take on new challenges and expand my skillset to stay on top of
+                the latest trends in web development.
+              </p>
+              <p>
+                When I'm not coding, I love spending time with my family,
+                cheering on my sons at their travel baseball games, and
+                exploring Colorado's great outdoors with our chocolate lab. I'm
+                also always on the hunt for the best tacos in town. Balancing
+                work and life is important to me, and I strive to bring that
+                balance to every project I work on.
+              </p>
+              <!-- <p>
                             What to say here? Am I an email developer, content editor or frontend/web
                             developer? Looking for quickest path to first job. Going to work on email
                             development next.
@@ -293,187 +447,316 @@
                             fishing with friends, finding the best tacos and hanging out with our chocolate
                             lab,
                             Barkley.</p> -->
-                    </div>
-                </div>
             </div>
-
+          </div>
         </div>
-        <!-- end about section -->
-        <!-- portfolio section -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 275">
-            <path fill="#ffffff" fill-opacity="1"
-                d="M0,96L60,117.3C120,139,240,181,360,197.3C480,213,600,203,720,186.7C840,171,960,149,1080,160C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
-            </path>
-        </svg>
+      </div>
+      <!-- end about section -->
+      <!-- portfolio section -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 275">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L60,117.3C120,139,240,181,360,197.3C480,213,600,203,720,186.7C840,171,960,149,1080,160C1200,171,1320,213,1380,234.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
 
-        <div id="portfoliosection" class="sectionblock">
-            <!-- <p>Portfolio Section</p> -->
-            <div class="container">
+      <div id="portfoliosection" class="sectionblock">
+        <!-- <p>Portfolio Section</p> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="about text-center">
+                <h3>Projects</h3>
+              </div>
+              <!-- filter portfolio -->
+              <div class="warpfilter text-left">
+                <ul
+                  id="filterwrap"
+                  class="warpfilter__filter justify-content-left text-center text-lg-left"
+                >
+                  <li data-group="all" class="active">All</li>
+                  <li data-group="web">Websites</li>
+                  <li data-group="wordpress">CMS/WordPress</li>
+                  <li data-group="shopify">Shopify</li>
+                  <li data-group="email">Email Development</li>
+                </ul>
+              </div>
 
-                <div class="row">
+              <!-- end filter portfolio -->
+              <div id="porfoliowarp" class="grid-gutter-md grid-col-3">
+                <!--  PORFOLIO ITEM -->
+                <!-- Bailey and Banjo -->
+                <div class="porfoliowarp__item" data-groups='["wordpress"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    href="https://baileyandbanjo.jcleggco.com/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/1.jpg) no-repeat top;
+                        background-position: top;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                    <div class="col-lg-12 text-center">
-                        <div class="about text-center">
-                            <h3>Projects</h3>
-                        </div>
-                        <!-- filter portfolio -->
-                        <div class="warpfilter text-left">
-                            <ul id="filterwrap"
-                                class="warpfilter__filter justify-content-left text-center text-lg-left">
-                                <li data-group="all" class="active">All</li>
-                                <!-- <li data-group="web">Websites</li> -->
-                                <li data-group="wordpress">CMS/WordPress</li>
-                                <li data-group="shopify">Shopify</li>
-                                <!-- <li data-group="email">Email Development</li> -->
+                <!--  PORFOLIO ITEM -->
+                <!-- Paradise Mobile Grooming -->
+                <div class="porfoliowarp__item" data-groups='["wordpress"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="https://paradise-mobile-dog-spa.jcleggco.com/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/3.png) no-repeat top;
+                        background-position: top;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                            </ul>
-                        </div>
+                <!--  PORFOLIO ITEM -->
+                <!-- Baseball Shopify Store -->
+                <!-- <div><p>Shopify Store Password: 123456</p></div> -->
+                <div class="porfoliowarp__item" data-groups='["shopify"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="https://thats-baseball-bro.myshopify.com/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/7.jpg) no-repeat top;
+                        background-position: top;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                        <!-- end filter portfolio -->
-                        <div id="porfoliowarp" class="grid-gutter-md grid-col-3">
+                <!--  PORFOLIO ITEM -->
+                <!-- Unplugged -->
+                <div class="porfoliowarp__item" data-groups='["web"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="https://jclegg31.github.io/unplugged-retreat/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/2.jpg) no-repeat top;
+                        background-position: top;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                            <!--  PORFOLIO ITEM -->
-                            <div class="porfoliowarp__item" data-groups='["wordpress"]'>
-                                <a class="porfoliowarp__portolink" href="https://baileyandbanjo.jcleggco.com/"
-                                    target="_blank" rel="noopener">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/1.jpg) no-repeat top;  background-position: top;
-                            background-size: cover;"></div>
-                                </a>
-                            </div>
-                            <!-- END PORTFOLIO ITEM -->
+                <!--  PORFOLIO ITEM -->
+                <!-- Lerma Group - All Things Broomfield -->
+                <div class="porfoliowarp__item" data-groups='["web"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="https://allthingsbroomfield.netlify.app/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/4.jpg) no-repeat top;
+                        background-position: top;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                            <!--  PORFOLIO ITEM -->
-                            <div class="porfoliowarp__item" data-groups='["wordpress"]'>
-                                <a class="porfoliowarp__portolink" data-glightbox="type: image"
-                                    href="https://paradise-mobile-dog-spa.jcleggco.com/" target="_blank" rel="noopener">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/3.png) no-repeat top;  background-position: top;
-                            background-size: cover;"></div>
-                                </a>
-                            </div>
-                            <!-- END PORTFOLIO ITEM -->
+                <!--  PORFOLIO ITEM -->
+                <!-- JMO Lawn and Shovel -->
+                <div class="porfoliowarp__item" data-groups='["web"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="/asset/portfolio/8.jpg"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/8.jpg) no-repeat top;
+                        background-position: center;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                            <!--  PORFOLIO ITEM -->
-                            <div class="porfoliowarp__item" data-groups='["shopify"]'>
-                                <a class="porfoliowarp__portolink" data-glightbox="type: image"
-                                    href="https://thats-baseball-bro.myshopify.com/" target="_blank" rel="noopener">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/7.jpg) no-repeat top; background-position: top;
-                                                                                    background-size: cover;"></div>
-                                    <p>Shopify Store Password: 123456</p>
-                                </a>
-                            </div>
-                            <!-- END PORTFOLIO ITEM -->
+                <!--  PORFOLIO ITEM -->
+                <!-- IHG Promotional Email -->
+                <div class="porfoliowarp__item" data-groups='["email"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="https://ihg-promotional-email.netlify.app/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/5.jpg) no-repeat top
+                          center;
+                        background-position: top;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                            <!--  PORFOLIO ITEM -->
-                            <!-- <div class="porfoliowarp__item" data-groups='["web"]'>
-                                <a class="porfoliowarp__portolink" data-glightbox="type: image"
-                                    href="https://jclegg31.github.io/unplugged-retreat/" target="_blank" rel="noopener">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/2.jpg) no-repeat top;  background-position: top;
-                            background-size: cover;"></div>
-                                </a>
-                            </div> -->
-                            <!-- END PORTFOLIO ITEM -->
+                <!--  PORFOLIO ITEM -->
+                <!-- IHG Promotional Email -->
+                <div class="porfoliowarp__item" data-groups='["email"]'>
+                  <a
+                    class="porfoliowarp__portolink"
+                    data-glightbox="type: image"
+                    href="./asset/portfolio/9.jpg"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/9.jpg) no-repeat top;
+                        background-position: center;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
 
-                            <!--  PORFOLIO ITEM -->
-                            <!-- <div class="porfoliowarp__item" data-groups='["email"]'>
-                                <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image"
-                                    href="./asset/portfolio/4.jpg">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/4.jpg) no-repeat center;  background-position: center;
-                            background-size: cover;"></div>
-                                </a>
-                            </div> -->
-                            <!-- END PORTFOLIO ITEM -->
-
-                            <!--  PORFOLIO ITEM -->
-                            <!-- <div class="porfoliowarp__item" data-groups='["email"]'>
-                                <a class="porfoliowarp__portolink glightbox" data-glightbox="type: image"
-                                    href="./asset/portfolio/5.jpg">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/5.jpg) no-repeat center;  background-position: center;
-                            background-size: cover;"></div>
-                                </a>
-                            </div> -->
-                            <!-- END PORTFOLIO ITEM -->
-
-                            <!--  PORFOLIO ITEM -->
-                            <!-- <div class="porfoliowarp__item" data-groups='["email"]'>
-                                <a class="porfoliowarp__portolink  glightbox" data-glightbox="type: image"
-                                    href="./asset/portfolio/6.jpg">
-                                    <i class="fa-solid fa-circle-plus"></i>
-                                    <div class="porfoliowarp__content" style="background: url(./asset/portfolio/6.jpg) no-repeat center;  background-position: center;
-                            background-size: cover;"></div>
-                                </a>
-                            </div> -->
-                            <!-- END PORTFOLIO ITEM -->
-                        </div>
-                        <!-- uncomment if you want to add more than six projects. -->
-                        <!-- <a href="#" class="btn linkbtn mt-5">
+                <!--  PORFOLIO ITEM -->
+                <!-- Transactional Email -->
+                <div class="porfoliowarp__item" data-groups='["email"]'>
+                  <a
+                    class="porfoliowarp__portolink glightbox"
+                    data-glightbox="type: image"
+                    href="./asset/portfolio/6.jpg"
+                  >
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <div
+                      class="porfoliowarp__content"
+                      style="
+                        background: url(./asset/portfolio/6.jpg) no-repeat top;
+                        background-position: center;
+                        background-size: cover;
+                      "
+                    ></div>
+                  </a>
+                </div>
+                <!-- END PORTFOLIO ITEM -->
+              </div>
+              <!-- uncomment if you want to add more than six projects. -->
+              <!-- <a href="#" class="btn linkbtn mt-5">
                                 More Works
                             </a> -->
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
-        <!-- end portfolio section -->
-        <!-- contact section -->
+      </div>
+      <!-- end portfolio section -->
+      <!-- contact section -->
 
-        <div id="contactsection" class="sectionblock">
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,96L60,117.3C120,139,240,181,360,186.7C480,192,600,160,720,138.7C840,117,960,107,1080,117.3C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
-                </path>
-            </svg>
-            <div class="container">
-                <!-- Contact Section -->
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="contactdetail">
-                            <ul class="contactdetail__sosmed">
-                                <li>
-                                    <a href="https://www.facebook.com/jclegg" target=”_blank”>
-                                        <i class="fa-brands fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/JClegg61874" target=”_blank”>
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/jclegg31" target=”_blank”>
-                                        <i class="fa-brands fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:jcleggdev@gmail.com" target=”_blank”>
-                                        <i class="fa-solid fa-envelope"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
+      <div id="contactsection" class="sectionblock">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,96L60,117.3C120,139,240,181,360,186.7C480,192,600,160,720,138.7C840,117,960,107,1080,117.3C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+        <div class="container">
+          <!-- Contact Section -->
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="contactdetail">
+                <ul class="contactdetail__sosmed">
+                  <li>
+                    <a href="https://www.facebook.com/jclegg" target="”_blank”">
+                      <i class="fa-brands fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/JClegg61874" target="”_blank”">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jclegg31" target="”_blank”">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:jcleggdev@gmail.com" target="”_blank”">
+                      <i class="fa-solid fa-envelope"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- end contact section -->
+      </div>
+      <!-- end contact section -->
     </main>
     <!-- end main wrap -->
     <!-- footer section -->
     <footer id="footerwrap" class="pt-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center footwrap">
-                    <p><b>JULIE CLEGG</b> <span class="years"> </span> FRONTEND DEVELOPER | HTML EMAIL DEVELOPER |
-                        CONTENT EDITOR | SHOPIFY</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center footwrap">
+            <p>
+              <b>JULIE CLEGG</b> <span class="years"> </span> FRONTEND DEVELOPER
+              | HTML EMAIL DEVELOPER | CONTENT EDITOR | SHOPIFY
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
     <!-- end footer section-->
     <!-- keen slider -->
@@ -484,6 +767,5 @@
     <script src="./javascript/vendor/shufle.js"></script>
     <!-- script -->
     <script src="./javascript/main.js"></script>
-</body>
-
+  </body>
 </html>
