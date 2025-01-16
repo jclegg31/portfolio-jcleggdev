@@ -22,26 +22,26 @@ Filename      : main.css
 @import url(./vendor/keen-slider.css);
 @import url(./vendor/glightbox.css);
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url('../font/Poppins-Bold.woff2') format('woff2');
+  src: url("../font/Poppins-Bold.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url('../font/Poppins-SemiBold.woff2') format('woff2');
+  src: url("../font/Poppins-SemiBold.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url('../font/Poppins-Regular.woff2') format('woff2');
+  src: url("../font/Poppins-Regular.woff2") format("woff2");
   font-display: swap;
 }
 /*
@@ -63,7 +63,7 @@ Filename      : main.css
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 15px;
   font-weight: 400;
   background: var(--clr-lightyellow);
@@ -148,6 +148,24 @@ textarea {
 
 .dot--active {
   background: var(--clr-black);
+}
+
+.dark-bar {
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bg-overlay {
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 20px 10px !important;
+  border-radius: 5px !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.bg-overlay p {
+  font-size: 14px !important;
 }
 /*
 * ----------------------------------------------------------------------------------------
@@ -251,7 +269,7 @@ textarea {
 
 .navicon__bar:before,
 .navicon__bar:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 2px;
@@ -472,9 +490,9 @@ textarea {
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    'html css javascript wordpress'
-    'mailchimp litmus figma canva'
-    'photoshop illustrator indesign lightroom';
+    "html css javascript wordpress"
+    "mailchimp litmus figma canva"
+    "photoshop illustrator indesign lightroom";
 }
 
 .tech-grid-container .html {
@@ -628,7 +646,7 @@ textarea {
   z-index: 1;
   color: var(--clr-black);
   opacity: 0;
-  font-size: 50px;
+  font-size: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
