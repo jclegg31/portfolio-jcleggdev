@@ -398,7 +398,19 @@ textarea {
 }
 
 .herolink {
+  /* display: inline-block;
+  color: var(--clr-black); */
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  color: #222;
   display: inline-block;
+  background: #ddaa01;
+  border-radius: 25px;
+}
+
+.herolink:hover {
+  color: var(--clr-lightyellow);
 }
 
 .tag-line {
@@ -488,11 +500,12 @@ textarea {
 .tech-grid-container {
   display: grid;
   place-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "html css javascript wordpress"
-    "mailchimp litmus figma canva"
-    "photoshop illustrator indesign lightroom";
+    "html css javascript"
+    "wordpress shopify mailchimp"
+    "litmus figma canva"
+    "indesign photoshop lightroom";
 }
 
 .tech-grid-container .html {
